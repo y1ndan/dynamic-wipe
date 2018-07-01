@@ -1,6 +1,6 @@
 #  DynamicWIPE
 
-A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) project in order to use [Project_WIPE](https://github.com/yc9559/cpufreq-interactive-opt) dynamically. Tasker实现自动化运行yc调度—DynamicWIPE (yc-WIPE_Tasker)
+A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) project in order to use [Project_WIPE](https://github.com/yc9559/cpufreq-interactive-opt) dynamically. Tasker实现自动化运行yc调度 (yc-WIPE_Tasker)
 
 ![](scr/demo.png)
 
@@ -21,7 +21,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 - 没有对内核的要求，官方内核即可
 - 如果原本的温控过于激进，为了避免影响效果，需要删除原本的温控
-- 已经取得ROOT权限，以及已经安装busybox
+- 已经取得ROOT权限，以及已经安装BusyBox
 1. 下载Tasker主程序
 2. 打开Tasker，点右上角三个点，进入`首选项`
    - 在`界面`一栏取消勾选`初学者模式`（这样在Tasker主界面就有了`变量`一栏）
@@ -35,7 +35,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 ##  注意
 
-- 从旧版更新上来的请删除旧版的项目文件和/data/powercfg配置文件再导入
+- 从旧版更新上来的童鞋请删除旧版的项目文件和/data/powercfg配置文件再使用
 - 再次强调BusyBox是必须的，否则下载文件会出错
 
 ##  FAQ
