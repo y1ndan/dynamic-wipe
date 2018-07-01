@@ -1,8 +1,6 @@
 #  DynamicWIPE
 
-A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) project in order to use [Project_WIPE](https://github.com/yc9559/cpufreq-interactive-opt) dynamically.
-
-Tasker实现自动化运行yc调度—DynamicWIPE (yc-WIPE_Tasker)
+A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) project in order to use [Project_WIPE](https://github.com/yc9559/cpufreq-interactive-opt) dynamically. Tasker实现自动化运行yc调度—DynamicWIPE (yc-WIPE_Tasker)
 
 ![](scr/demo.png)
 
@@ -13,7 +11,7 @@ Tasker实现自动化运行yc调度—DynamicWIPE (yc-WIPE_Tasker)
 - [x] **关闭屏幕 → 若3分钟（自定义）之内屏幕不被打开，且当前未处于省电模式，则启用省电模式**
 - [x] **运行游戏 → 打开游戏时立刻启用游戏模式；游戏切换至后台或退出/关闭屏幕（无论是否退出）超过3分钟（自定义），则启用均衡/省电模式；**
 - [x] **自动配置 → 自主判断SOC平台并下载对应WIPE配置文件（实验性）**
-- [  ] 自动更新
+- [ ] 自动更新
 
 ##  原理
 
