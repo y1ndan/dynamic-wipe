@@ -30,8 +30,8 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 3. 下载 **DynamicWIPE.prj.xml**：复制以下链接到ADM等下载工具里下载
    -  `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml`
 4. 导入该项目文件：
-   - 打开Tasker，长按左下角**房子**→ **导入**→找到并选择已下载的 **DynamicWIPE.prj.xml**文件即可
-5. 重启或开关屏幕一次等待配置生效
+   - 打开Tasker，长按左下角**房子**→ **导入**→找到并选择已下载的 **DynamicWIPE.prj.xml**文件
+5. 进入任务栏，长按`☑ shØut`点击`Play`手动运行一次即可
 
 ##  注意
 
@@ -53,7 +53,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 4. 如何才知道模式启动是否成功了？当前属于什么模式？
 
-    > 内置三种提醒方式：通知栏提醒、弹出消息提醒、振动提醒；当前模式可在`变量`查看
+    > 内置三种提醒方式：通知栏提醒、弹出消息提醒、振动提醒；当前模式可在`变量`栏查看
 
 5. 为什么不用Xposed edge pro？为什么不用微工具箱？为什么不用Kernel Auditor？为什么不用Magisk模块？
 
