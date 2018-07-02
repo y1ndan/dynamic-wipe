@@ -52,8 +52,8 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1528599543668</cdate>
 		<name>DynamicWIPE</name>
-		<pids>10,13,12,11</pids>
-		<tids>7,8,6,5,9,4,3</tids>
+		<pids>11,13,12,10</pids>
+		<tids>9,5,7,6,3,8,4</tids>
 	</Project>
 	<Task sr="task3">
 		<cdate>1528600883316</cdate>
@@ -186,7 +186,7 @@
 	</Task>
 	<Task sr="task5">
 		<cdate>1528601066929</cdate>
-		<edate>1530453421769</edate>
+		<edate>1530510123608</edate>
 		<id>5</id>
 		<nme>☑ shØut</nme>
 		<pri>100</pri>
@@ -228,7 +228,7 @@
 	</Task>
 	<Task sr="task6">
 		<cdate>1528601147611</cdate>
-		<edate>1530453918115</edate>
+		<edate>1530510498205</edate>
 		<id>6</id>
 		<nme>☑ AutomaticDL</nme>
 		<pri>100</pri>
@@ -573,7 +573,7 @@
 		</Action>
 		<Action sr="act41" ve="7">
 			<code>548</code>
-			<Str sr="arg0" ve="3">Dynamic WIPE: 配置文件未找到！下载中...</Str>
+			<Str sr="arg0" ve="3">Dynamic WIPE: 配置文件未找到！正在下载...</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
 		<Action sr="act42" ve="7">
@@ -591,8 +591,42 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 			<Str sr="arg5" ve="3"/>
 		</Action>
 		<Action sr="act43" ve="7">
+			<code>123</code>
+			<label>检查配置文件</label>
+			<Str sr="arg0" ve="3">[ -e /data/powercfg ] &amp;&amp; echo 0 || echo 1</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%ProfileStatus</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ProfileStatus</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">☑ shØut</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act47" ve="7">
 			<code>548</code>
-			<Str sr="arg0" ve="3">Dynamic WIPE: 下载完成！请开关屏幕一次激活配置</Str>
+			<Str sr="arg0" ve="3">Dynamic WIPE: 文件下载不成功！请检查是否已授予ROOT权限或是否安装了BusyBox软件。正在退出…</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act5" ve="7">
@@ -667,7 +701,7 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 	</Task>
 	<Task sr="task7">
 		<cdate>1528601207697</cdate>
-		<edate>1530453320334</edate>
+		<edate>1530502454698</edate>
 		<id>7</id>
 		<nme>☑ Notification</nme>
 		<pri>100</pri>
@@ -801,7 +835,7 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 	</Task>
 	<Task sr="task8">
 		<cdate>1528600584967</cdate>
-		<edate>1530453606938</edate>
+		<edate>1530454700243</edate>
 		<id>8</id>
 		<nme>🐳 均衡</nme>
 		<pri>6</pri>
