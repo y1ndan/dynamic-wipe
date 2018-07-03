@@ -36,7 +36,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 ##  注意
 
 - 从旧版更新上来的童鞋请删除旧版的项目文件和/data/powercfg配置文件再使用
-~~- 再次强调BusyBox是必须的，否则下载文件会出错~~
+- ~~再次强调BusyBox是必须的，否则下载文件会出错~~
 
 ##  FAQ
 
