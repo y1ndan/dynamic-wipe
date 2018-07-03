@@ -10,7 +10,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 - [x] **打开屏幕 → 若3分钟（自定义）之内屏幕不被关闭，且当前未处于均衡模式，则启用均衡模式**
 - [x] **关闭屏幕 → 若3分钟（自定义）之内屏幕不被打开，且当前未处于省电模式，则启用省电模式**
 - [x] **运行游戏 → 打开游戏时立刻启用游戏模式；游戏切换至后台或退出/关闭屏幕（无论是否退出）超过3分钟（自定义），则启用均衡/省电模式；**
-- [x] **自动配置 → 自主判断SOC平台并下载对应WIPE配置文件（实验性）**
+- [x] **自动配置 → 自主判断SOC平台并下载对应WIPE配置文件**
 - [ ] 自动更新
 
 ##  原理
@@ -36,7 +36,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 ##  注意
 
 - 从旧版更新上来的童鞋请删除旧版的项目文件和/data/powercfg配置文件再使用
-- 再次强调BusyBox是必须的，否则下载文件会出错
+~~- 再次强调BusyBox是必须的，否则下载文件会出错~~
 
 ##  FAQ
 
