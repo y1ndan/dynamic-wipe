@@ -40,10 +40,10 @@
 	<Profile sr="prof13" ve="2">
 		<cdate>1529631984278</cdate>
 		<clp>true</clp>
-		<edate>1530795143030</edate>
+		<edate>1530864663133</edate>
 		<id>13</id>
 		<mid0>5</mid0>
-		<nme>-= yc-WIPE_Tasker_v4.5 =-</nme>
+		<nme>-= yc-WIPE_Tasker_v4.52 =-</nme>
 		<Event sr="con0" ve="2">
 			<code>411</code>
 			<pri>0</pri>
@@ -52,8 +52,8 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1528599543668</cdate>
 		<name>DynamicWIPE</name>
-		<pids>12,11,13,10</pids>
-		<tids>5,8,7,9,3,6,4</tids>
+		<pids>13,12,11,10</pids>
+		<tids>8,9,6,4,7,5,3</tids>
 	</Project>
 	<Task sr="task3">
 		<cdate>1528600883316</cdate>
@@ -228,7 +228,7 @@
 	</Task>
 	<Task sr="task6">
 		<cdate>1528601147611</cdate>
-		<edate>1530863745464</edate>
+		<edate>1530864604013</edate>
 		<id>6</id>
 		<nme>☑ AutomaticDL</nme>
 		<pri>100</pri>
@@ -627,12 +627,13 @@
 		<Action sr="act33" ve="7">
 			<code>118</code>
 			<label>下载配置文件step.2</label>
+			<se>false</se>
 			<Str sr="arg0" ve="3">%myURL</Str>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="1"/>
+			<Int sr="arg5" val="10"/>
 			<Str sr="arg6" ve="3">text/*</Str>
 			<Str sr="arg7" ve="3">Tasker/WIPE/tmp</Str>
 			<Int sr="arg8" val="0"/>
