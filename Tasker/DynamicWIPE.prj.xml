@@ -52,8 +52,8 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1528599543668</cdate>
 		<name>DynamicWIPE</name>
-		<pids>88,90,89,91</pids>
-		<tids>85,86,82,87,83,84,81</tids>
+		<pids>89,88,90,91</pids>
+		<tids>85,83,86,84,87,81,82</tids>
 	</Project>
 	<Task sr="task81">
 		<cdate>1528600883316</cdate>
@@ -186,7 +186,7 @@
 	</Task>
 	<Task sr="task83">
 		<cdate>1528601066929</cdate>
-		<edate>1531043803826</edate>
+		<edate>1531049184389</edate>
 		<id>83</id>
 		<nme>☑ shØut</nme>
 		<pri>100</pri>
@@ -228,7 +228,7 @@
 	</Task>
 	<Task sr="task84">
 		<cdate>1528601147611</cdate>
-		<edate>1531043815922</edate>
+		<edate>1531049357002</edate>
 		<id>84</id>
 		<nme>☑ AutomaticDL</nme>
 		<pri>100</pri>
@@ -806,7 +806,7 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 	</Task>
 	<Task sr="task85">
 		<cdate>1528601207697</cdate>
-		<edate>1531043028910</edate>
+		<edate>1531049328693</edate>
 		<id>85</id>
 		<nme>☑ Notification</nme>
 		<pri>100</pri>
@@ -844,11 +844,21 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 			<code>38</code>
 		</Action>
 		<Action sr="act13" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%WIPEStatus</lhs>
+					<op>2</op>
+					<rhs>*OK</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
 			<code>779</code>
 			<Str sr="arg0" ve="3"/>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>523</code>
 			<Str sr="arg0" ve="3">Dynamic WIPE</Str>
 			<Str sr="arg1" ve="3">%WIPEStatus(1)启用成功 。</Str>
@@ -859,14 +869,22 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="4"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Dynamic WIPE: %WIPEStatus</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>61</code>
 			<Int sr="arg0" val="10"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Dynamic WIPE 启动失败</Str>
+			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
