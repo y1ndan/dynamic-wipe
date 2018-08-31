@@ -14,30 +14,27 @@
 	<Profile sr="prof38" ve="2">
 		<cdate>1535706035541</cdate>
 		<clp>true</clp>
-		<edate>1535707168172</edate>
+		<edate>1535708401599</edate>
 		<id>38</id>
 		<mid0>36</mid0>
 		<mid1>32</mid1>
 		<nme>yc-Performance</nme>
 		<App sr="con0" ve="2">
 			<cls0>com.epicgames.ue4.SplashActivity</cls0>
-			<cls1>com.ruguoapp.jike.business.main.ui.SplashActivity</cls1>
 			<flags>3</flags>
 			<label0>绝地求生 刺激战场</label0>
-			<label1>即刻</label1>
 			<pkg0>com.tencent.tmgp.pubgmhd</pkg0>
-			<pkg1>com.ruguoapp.jike</pkg1>
 		</App>
 	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1535704506554</cdate>
 		<name>DynamicWIPE_s</name>
-		<pids>37,38</pids>
-		<tids>35,34,36,33,32</tids>
+		<pids>38,37</pids>
+		<tids>35,36,33,34,32</tids>
 	</Project>
 	<Task sr="task32">
 		<cdate>1535704598397</cdate>
-		<edate>1535706615980</edate>
+		<edate>1535708439345</edate>
 		<id>32</id>
 		<nme>⭐️ 省电</nme>
 		<Action sr="act0" ve="7">
@@ -127,6 +124,7 @@
 		<edate>1535706136994</edate>
 		<id>33</id>
 		<nme>☑shØut</nme>
+		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<label>开机自启 → 省电模式</label>
@@ -736,7 +734,7 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 	</Task>
 	<Task sr="task35">
 		<cdate>1535704820285</cdate>
-		<edate>1535705681639</edate>
+		<edate>1535708039389</edate>
 		<id>35</id>
 		<nme>☑Notification</nme>
 		<Action sr="act0" ve="7">
@@ -884,7 +882,7 @@ rm -rf /storage/emulated/0/Tasker/WIPE/tmp</Str>
 	</Task>
 	<Task sr="task36">
 		<cdate>1535704860431</cdate>
-		<edate>1535706542356</edate>
+		<edate>1535707766516</edate>
 		<id>36</id>
 		<nme>⚡️ 游戏</nme>
 		<Action sr="act0" ve="7">
