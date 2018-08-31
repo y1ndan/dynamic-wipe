@@ -43,7 +43,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 ##  注意
 
-- 自动配置为实验性功能，如果WIPE支持你的设备但Tasker又不能识别，就得手动开启下载配置文件了：
+- 自动配置为实验性功能，如果Project WIPE支持你的设备但Tasker又不能识别，就得手动开启下载配置文件了：
 
 1. 进入` ☑ AutomaticDL`
 2. 长按选择 %ycURL，选择对应设备CPU平台的 %myURL，依次选择 下载配置文件step.1+2+3
@@ -91,7 +91,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 9. 我遇到了提示其他错误，正确的提问方式是什么？
 
-    > 简述你的操作步骤并提供变量栏中的ycURL、wipestaus和platform参数
+    > 简述你的操作步骤并提供变量栏中的myURL、ProfileStatus、WIPEStaus和Platform参数
 
 10.说了这么多有什么用，我还是不知道怎样才算成功！能不能简单点！
  
