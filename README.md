@@ -19,24 +19,39 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 ## 使用教程
 
-- 没有对内核的要求，官方内核即可
+- 支持CPU调速器有Interactive模式的内核
 - 如果原本的温控过于激进，为了避免影响效果，需要删除原本的温控
-- 已经取得ROOT权限，以及已经安装BusyBox
+- 设备已经取得ROOT权限
+- 检查/data目录下是否已有powercfg配置文件，若有请先删除
 1. 下载Tasker主程序
 2. 打开Tasker，点右上角三个点，进入`首选项`
    - 在`界面`一栏取消勾选`初学者模式`（这样在Tasker主界面就有了`变量`一栏）
    - 在`监视器`一栏，修改`所有检查秒数`为3600，勾选`前端运行`（防止时间久了被安卓回收资源）
    - 在`杂项`一栏，勾选`减少资源消耗`
-3. 下载 **DynamicWIPE.prj.xml**：复制以下链接到ADM等下载工具里下载
-   -  `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml`
+3. 下载 **DynamicWIPE.prj.xml**：复制以下链接到ADM等下载工具里下载：
+
+   -  原始版本：
+   `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml`
+   
+    -  更多版本：
+        默认省电
+    `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE_s.prj.xml`
+   
 4. 导入该项目文件：
    - 打开Tasker，长按左下角**房子**→ **导入**→找到并选择已下载的 **DynamicWIPE.prj.xml**文件
 5. 进入任务栏，长按`☑ shØut`点击`Play`手动运行一次即可
 
 ##  注意
 
-- 从旧版更新上来的童鞋请删除旧版的项目文件和/data/powercfg配置文件再使用
-- ~~再次强调BusyBox是必须的，否则下载文件会出错~~
+- 自动配置为实验性功能，如果WIPE支持你的设备但Tasker又不能识别，就得手动开启下载配置文件了：
+
+1. 进入` ☑ AutomaticDL`
+2. 长按选择 %ycURL，选择对应设备CPU平台的 %myURL，依次选择 下载配置文件step.1+2+3
+3. 最后点击左下角的三角形运行即可
+
+以835为例：
+
+![](scr/demo.gif)
 
 ##  FAQ
 
@@ -65,6 +80,28 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
     > - 卡顿版，带来更多的卡顿，如果硬是要节省一点电量，相对感知卡顿为115
     > - 费电版，可能比默认的更加费电，如果均衡的流畅度不能满意，相对感知卡顿为60
     > - 低延迟，相当的费电，如果需要稳定的性能调控例如专业多媒体，固定最低频率在1.6Ghz上下
+    
+7. DynamicWIPE.prj.xml和powercfg这两个文件有什么区别？
+
+    > DynamicWIPE.prj.xml是Tasker的配置文件，powercfg是Project WIPE的配置文件
+
+8. 运行配置后会报powercfg[249]的错误？
+
+    > 请检查你的内核是否支持Interactive模式。某些内核如EAS内核的CPU调速器并没有Interactive模式，故执行任务会报错。通过刷入支持此模式的内核解决
+
+9. 我遇到了提示其他错误，正确的提问方式是什么？
+
+    > 简述你的操作步骤并提供变量栏中的ycURL、wipestaus和platform参数
+
+10.说了这么多有什么用，我还是不知道怎样才算成功！能不能简单点！
+
+    > RT
+    
+    ![](scr/balance_OK.png)
+
+##  卸载
+
+- 删除Tasker配置文件和/data/powercfg 然后重启设备
 
 ##  感谢
 
