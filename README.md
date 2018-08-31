@@ -33,8 +33,8 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
    -  原始版本：
    `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml`
    
-    -  更多版本：
-        默认省电
+   -  更多版本：
+      默认省电
     `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE_s.prj.xml`
    
 4. 导入该项目文件：
@@ -94,8 +94,6 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
     > 简述你的操作步骤并提供变量栏中的ycURL、wipestaus和platform参数
 
 10.说了这么多有什么用，我还是不知道怎样才算成功！能不能简单点！
-
-    > RT
     
     ![](scr/balance_OK.png)
 
