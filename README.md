@@ -19,10 +19,11 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 ## 使用教程
 
-- 支持CPU调速器有Interactive模式的内核
-- 如果原本的温控过于激进，为了避免影响效果，需要删除原本的温控
 - 设备已经取得ROOT权限
+- 支持CPU调速器有Interactive模式的内核
 - 检查/data目录下是否已有powercfg配置文件，若有请先删除
+- 如果原本的温控过于激进，为了避免影响效果，需要删除原本的温控
+
 1. 下载Tasker主程序
 2. 打开Tasker，点右上角三个点，进入`首选项`
    - 在`界面`一栏取消勾选`初学者模式`（这样在Tasker主界面就有了`变量`一栏）
