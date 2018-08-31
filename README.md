@@ -93,8 +93,8 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
     > 简述你的操作步骤并提供变量栏中的ycURL、wipestaus和platform参数
 
 10.说了这么多有什么用，我还是不知道怎样才算成功！能不能简单点！
-    
-    ![](scr/balanceOK.png)
+    > RT
+![](scr/balance_OK.png)
 
 ##  卸载
 
