@@ -29,7 +29,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
    - 在`界面`一栏取消勾选`初学者模式`（这样在Tasker主界面就有了`变量`一栏）
    - 在`监视器`一栏，修改`所有检查秒数`为3600，勾选`前端运行`（防止时间久了被安卓回收资源）
    - 在`杂项`一栏，勾选`减少资源消耗`
-3. 下载 **DynamicWIPE.prj.xml**：复制以下链接到ADM等下载工具里下载：
+3. 下载 **DynamicWIPE.prj.xml**（复制以下链接到ADM等下载工具里下载）：
 
    -  原始版本：开机默认均衡
    `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml`
@@ -43,10 +43,10 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 ##  注意
 
-- 自动配置为实验性功能，如果完成上述教程后发现Tasker提示不支持你的设备，但事实上设备SOC确实在Project WIPE支持的SOC列表（见文末）里时，就得手动开启下载配置文件了：
+- 自动配置为实验性功能，如果完成上述教程步骤后发现Tasker提示不支持你的设备，但事实上设备的SOC确实在Project WIPE支持的SOC列表里时（详见文末），就得手动开启下载配置文件了：
 
 1. 进入` ☑ AutomaticDL`
-2. 长按选择 %ycURL，选择对应设备CPU平台的 %myURL，依次选择 下载配置文件step.1+2+3，点击左下角的▶运行下载任务
+2. 长按选择 %ycURL，选择对应设备CPU平台的 %myURL，依次选择 下载配置文件step.1+2+3，点击左下角的▶下载配置文件
 3. 最后再执行教程第5步即可
 
 以835为例：
@@ -107,12 +107,12 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 ###  附：Project WIPE 支持的SOC列表
 
-> Snapdragon 835, 820/821, 810/808, 801/800/805, 660, 636, 652/650, 625/626
-> Exynos 8895, 8890, 7420
-> Kirin 970, 960, 950/955
-> Helio X20/X25, X10
-> Atom z3560/z3580
-> Snapdragon 845(非程序生成)
+    > Snapdragon 835, 820/821, 810/808, 801/800/805, 660, 636, 652/650, 625/626
+    > Exynos 8895, 8890, 7420
+    > Kirin 970, 960, 950/955
+    > Helio X20/X25, X10
+    > Atom z3560/z3580
+    > Snapdragon 845(非程序生成)
 
 
 
