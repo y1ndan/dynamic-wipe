@@ -29,18 +29,14 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
    - 在`界面`一栏取消勾选`初学者模式`（这样在Tasker主界面就有了`变量`一栏）
    - 在`监视器`一栏，修改`所有检查秒数`为3600，勾选`前端运行`（防止时间久了被安卓回收资源）
    - 在`杂项`一栏，勾选`减少资源消耗`
-3. 下载 **DynamicWIPE.prj.xml**（复制以下链接到ADM等下载工具里下载）：
+3. 下载 **DynamicWIPE.prj.xml**（使用ADM等下载工具将相应链接保存到本地，浏览器打开只会生成预览）：
 
-   -  原始版本：
+   -  [完整版](https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml "悬停显示")：**均衡+省电+游戏**
+      `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml`
    
-      **均衡+省电+游戏**
-   `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml`
-   
-   -  精简版本：
-   
-      ~~均衡+~~**省电+游戏**
+   -  [精简版](https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE_lite.prj.xml "悬停显示")：~~均衡+~~**省电+游戏**
     `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE_lite.prj.xml`
-   
+
 4. 导入该项目文件：
    - 打开Tasker，长按左下角**房子**→ **导入**→找到并选择已下载的 **DynamicWIPE.prj.xml**文件
 5. 进入任务栏，长按`☑ shØut`点击`Play`手动运行一次即可
@@ -111,12 +107,12 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 ###  附：Project WIPE 支持的SOC列表
 
-*Snapdragon 835, 820/821, 810/808, 801/800/805, 660, 636, 652/650, 625/626
-*Exynos 8895, 8890, 7420
-*Kirin 970, 960, 950/955
-*Helio X20/X25, X10
-*Atom z3560/z3580
-*Snapdragon 845(非程序生成)
+>Snapdragon 835, 820/821, 810/808, 801/800/805, 660, 636, 652/650, 625/626  
+>Exynos 8895, 8890, 7420  
+Kirin 970, 960, 950/955  
+Helio X20/X25, X10  
+Atom z3560/z3580  
+Snapdragon 845(非程序生成)  
 
 
 
