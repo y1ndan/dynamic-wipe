@@ -34,7 +34,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
    -  原始版本：均衡+省电+游戏
    `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml`
    
-   -  精简版本：省电+游戏
+   -  精简版本：~~均衡+~~省电+游戏
     `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE_lite.prj.xml`
    
 4. 导入该项目文件：
