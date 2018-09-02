@@ -31,11 +31,11 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
    - 在`杂项`一栏，勾选`减少资源消耗`
 3. 下载 **DynamicWIPE.prj.xml**（复制以下链接到ADM等下载工具里下载）：
 
-   -  原始版本：开机默认均衡
+   -  原始版本：均衡+省电+游戏
    `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml`
    
-   -  更多版本：开机默认省电
-    `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE_s.prj.xml`
+   -  精简版本：省电+游戏
+    `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE_lite.prj.xml`
    
 4. 导入该项目文件：
    - 打开Tasker，长按左下角**房子**→ **导入**→找到并选择已下载的 **DynamicWIPE.prj.xml**文件
