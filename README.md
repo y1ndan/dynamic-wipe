@@ -34,7 +34,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
    -  原始版本：均衡+省电+游戏
    `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml`
    
-   -  精简版本：~~均衡+~~省电+游戏
+   -  精简版本：~~均衡\+~~省电+游戏
     `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE_lite.prj.xml`
    
 4. 导入该项目文件：
@@ -107,12 +107,12 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 ###  附：Project WIPE 支持的SOC列表
 
-    > Snapdragon 835, 820/821, 810/808, 801/800/805, 660, 636, 652/650, 625/626
-    > Exynos 8895, 8890, 7420
-    > Kirin 970, 960, 950/955
-    > Helio X20/X25, X10
-    > Atom z3560/z3580
-    > Snapdragon 845(非程序生成)
+    >Snapdragon 835, 820/821, 810/808, 801/800/805, 660, 636, 652/650, 625/626
+    >Exynos 8895, 8890, 7420
+    >Kirin 970, 960, 950/955
+    >Helio X20/X25, X10
+    >Atom z3560/z3580
+    >Snapdragon 845(非程序生成)
 
 
 
