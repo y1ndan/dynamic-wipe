@@ -2,7 +2,7 @@
 
 A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) project in order to use [Project_WIPE](https://github.com/yc9559/cpufreq-interactive-opt) dynamically. Tasker实现自动化运行yc调度 (yc-WIPE_Tasker)
 
-![](scr/demo.png)
+![](img/demo.png)
 
 ##  特性
 
@@ -31,11 +31,11 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
    - 在`杂项`一栏，勾选`减少资源消耗`
 3. 下载 **DynamicWIPE.prj.xml**（使用ADM等下载工具将相应链接保存到本地，浏览器打开只会生成预览）：
 
-   -  [完整版](https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml "悬停显示")：**均衡+省电+游戏**
-      `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE.prj.xml`
+   -  [完整版](https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/config/archive/full/DynamicWIPE_v4.6.prj.xml "悬停显示")：**均衡+省电+游戏**
+      `https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/config/archive/full/DynamicWIPE_v4.6.prj.xml`
    
-   -  [精简版](https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE_lite.prj.xml "悬停显示")：~~均衡+~~**省电+游戏**
-    `https://raw.githubusercontent.com/sherlockwoo/DynamicWIPE/master/Tasker/DynamicWIPE_lite.prj.xml`
+   -  [精简版](https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/config/archive/lite/DynamicWIPE_lite_v1.0.prj.xml "悬停显示")：~~均衡+~~**省电+游戏**
+    `https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/config/archive/lite/DynamicWIPE_lite_v1.0.prj.xml`
 
 4. 导入该项目文件：
    - 打开Tasker，长按左下角**房子**→ **导入**→找到并选择已下载的 **DynamicWIPE.prj.xml**文件
@@ -51,7 +51,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 以835为例：
 
-![](scr/demo.gif)
+![](img/demo.gif)
 
 ##  FAQ
 
@@ -95,7 +95,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 10.说了这么多有什么用，我还是不知道怎样才算成功！能不能简单点！
  
-![](scr/balance_OK.png)
+![](img/balance_OK.png)
 
 ##  卸载
 
