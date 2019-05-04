@@ -60,6 +60,8 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 方法: 长按**- 设置** 弹出选择框, 选择对应设备型号, 再点击下载按钮, 即可下载配置文件并启用均衡/省电模式(精简版).
 
+![](img/5.0/download.png)
+
 ###  FAQ
 
 1. 为什么通知栏总是显示 `Tasker` 无激活配置？
