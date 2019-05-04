@@ -42,7 +42,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
  -  [完整版](https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/full/Dynamic_WIPE_full_v5.0_20190503.prj.xml "悬停显示")：
 
-    - 内置 **均衡+省电+游戏+极限**
+    - 内置 **待机+均衡+省电+游戏+极限**
    `https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/full/Dynamic_WIPE_full_v5.0_20190503.prj.xml`
 
 -  [精简版](https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/lite/Dynamic_WIPE_lite_v2.0_20190503.prj.xml "悬停显示"):
@@ -115,10 +115,14 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 ### 更新日志
 
 #### 20190503
-1. 同步更新`wipe-v2`
-2. 手动下载支持图形化了
-3. 新增 **待机必备** 模式
-4. 填上了一些之前挖的坑
+
+1. 同步更新wipe-v2
+2. 手动下载设置支持图形化了
+3. 新增 待机必备 模式(level 6)
+4. 新增 精简版 (省电+游戏)
+5. 加入了对 火力全开 (原极限模式)的支持
+6. 填上了一些之前挖的坑, 变量栏更加简洁了
+7. Enjoy it!!!
 
 ###  感谢
 
