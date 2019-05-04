@@ -1,4 +1,4 @@
-##  Dynamic WIPE
+#  Dynamic WIPE
 
 A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) project to use [Project WIPE v2](https://github.com/yc9559/wipe-v2) dynamically. 
 
@@ -6,7 +6,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 ![](img/5.0/intro.png)
 
-###  特性
+##  特性
 
 - [x] **开机自启 → 均衡模式.**
 - [x] **打开屏幕 → 若 `3` 分钟(可自定义)之内屏幕不被关闭, 且当前未处于均衡模式, 则启用均衡模式.**
@@ -18,11 +18,11 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 > 精简版只内置**省电**和**游戏**两种模式. 开机自启及日常使用默认为**省电模式**, 运行指定应用立刻启用**游戏模式**, 应用切换至后台或退出/关闭屏幕超过 `3` 分钟则返回**省电模式**.
 
-###  原理
+##  原理
 
 利用 `Tasker` 软件创建任务来实现动态运行 `Project WIPE v2`
 
-### 使用教程
+## 使用教程
 
 - 设备已经取得 `ROOT` 权限.
 - 支持 `CPU` 调速器有 `Interactive` 模式的内核.
@@ -34,27 +34,30 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
    - 在**界面**一栏取消勾选**初学者模式**(这样在 `Tasker` 主界面就有了**变量**一栏).
    - 在**监视器**一栏, 修改**所有检查秒数**为 `3600`, 勾选**前端运行**(防止时间久了被安卓回收资源).
    - 在**杂项**一栏, 勾选**减少资源消耗**.
-3. 下载 `Dynamic_WIPE_xxx.prj.xml` 项目文件(使用 `ADM` 等下载工具将相应链接保存到本地, 有些浏览器打开只会生成预览).
-4. 导入项目文件: 打开 `Tasker`, 长按左下角**房子**→ **导入**→找到并选择已下载的 `Dynamic_WIPE_xxx.prj.xml` 项目文件.
-5. 进入任务栏, 长按 `- shØut` 点击 `Play` 手动运行一次就 `OK` 啦.
+3. 下载 `Dynamic_WIPE_xxx.zip` 压缩包.
+4. 解压 `zip` 文件压缩包, 得到 `Dynamic_WIPE_xxx.prj.xml` 项目文件.
+5. 导入项目文件: 打开 `Tasker`, 长按左下角**房子**→ **导入**→找到并选择已下载的 `Dynamic_WIPE_xxx.prj.xml` 项目文件.
+6. 进入任务栏, 长按 `- shØut` 点击 `Play` 手动运行一次就 `OK` 啦.
 
-### 下载
+## 下载
 
- -  [完整版](https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/full/Dynamic_WIPE_full_v5.0_20190503.prj.xml "悬停显示")：
+###  完整版
 
-    - 内置 **待机+均衡+省电+游戏+极限**
-   `https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/full/Dynamic_WIPE_full_v5.0_20190503.prj.xml`
+- 内置 **待机+均衡+省电+游戏+极限**
 
--  [精简版](https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/lite/Dynamic_WIPE_lite_v2.0_20190503.prj.xml "悬停显示"):
+   [点此下载](https://github.com/sherlockwoo/dynamic-wipe/raw/master/config/latest/full/Dynamic_WIPE_full_v5.1_20190504.zip "悬停显示")
 
-   - 内置 **省电+游戏**
-    `https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/lite/Dynamic_WIPE_lite_v2.0_20190503.prj.xml`
+### 精简版
 
-###  卸载
+ - 内置 **省电+游戏**
+
+   [点此下载](https://github.com/sherlockwoo/dynamic-wipe/raw/master/config/latest/lite/Dynamic_WIPE_lite_v2.0_20190504.zip "悬停显示")
+
+##  卸载
 
 删除 `Tasker` 配置文件和 `/data/powercfg` 然后重启设备
 
-###  注意
+##  注意
 
 自动配置为实验性功能, 如果完成上述教程步骤后发现软件提示不支持你的设备, 但事实上设备的 `SOC` 确实在 `Project WIPE v2` 支持的 `SOC` 列表里时(详见文末), 可尝试手动下载配置文件.**骁龙 `821` 设备必须手动下载**.
 
@@ -62,7 +65,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 ![](img/5.0/download.png)
 
-###  FAQ
+##  FAQ
 
 1. 为什么通知栏总是显示 `Tasker` 无激活配置？
 
@@ -112,9 +115,13 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
  
 ![](img/5.0/success.png)
 
-### 更新日志
+## 更新日志
 
-#### 20190503
+### 20190504
+
+1. 修复 手动下载设置不选择无法下载
+
+### 20190503
 
 1. 同步更新wipe-v2
 2. 手动下载设置支持图形化了
@@ -124,13 +131,11 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 6. 填上了一些之前挖的坑, 变量栏更加简洁了
 7. Enjoy it!!!
 
-###  感谢
+##  感谢
 
 [@yc9559](https://github.com/yc9559)
 
-###  附：`Project WIPE v2` 支持的 `SOC` 列表 (截至 `2019.05.03`)
+##  附：`Project WIPE v2` 支持的 `SOC` 列表 (截至 `2019.05.03`)
 
 > Snapdragon 835, 820, 821@2.0g, 821@2.1g, 821@2.3g, 660, 650/652/653, 636, 625
-
-
 
