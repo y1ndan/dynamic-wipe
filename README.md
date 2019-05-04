@@ -40,15 +40,15 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 ### 下载
 
- -  [完整版](https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/full/Dynamic_WIPE_full_20190503.prj.xml "悬停显示")：
+ -  [完整版](https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/full/Dynamic_WIPE_full_v5.0_20190503.prj.xml "悬停显示")：
 
     - 内置 **均衡+省电+游戏+极限**
-   `https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/full/Dynamic_WIPE_full_20190503.prj.xml`
+   `https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/full/Dynamic_WIPE_full_v5.0_20190503.prj.xml`
 
--  [精简版](https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/lite/Dynamic_WIPE_lite_20190503.prj.xml "悬停显示"):
+-  [精简版](https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/lite/Dynamic_WIPE_lite_v2.0_20190503.prj.xml "悬停显示"):
 
    - 内置 **省电+游戏**
-    `https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/lite/Dynamic_WIPE_lite_20190503.prj.xml`
+    `https://raw.githubusercontent.com/sherlockwoo/dynamic-wipe/master/config/latest/lite/Dynamic_WIPE_lite_v2.0_20190503.prj.xml`
 
 ###  卸载
 
