@@ -46,7 +46,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 
 ## 下载
 
-   [点此下载](https://github.com/Sherlockwoo/dynamic-wipe/raw/master/download/latest/dynamic-wipe.zip "悬停显示")
+   三合一压缩包：[点此下载](https://github.com/Sherlockwoo/dynamic-wipe/raw/master/download/latest/dynamic-wipe.zip "悬停显示")
 
 ###  完整版
 
@@ -71,7 +71,7 @@ A [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.t
 :-: | :-: |  :-: 
 游戏模式 | 性能 | -
 火力全开 | 极限 | -
--  shØut | 均衡 | 省电
+shØut | 均衡 | 省电
 ⚡️ 性能 | - | 性能
 
 
